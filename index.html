@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>ILDOM BETA</title>
+    <link rel="stylesheet" href="code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+      <style>
+      body{
+          background-color: #000;
+      }
+
+      elemento {
+      left: 10px;
+      top: 61px;
+      }
+
+      #blanhbb {
+      position: fixed;
+      width: 310px;
+      z-index: 2;
+      padding: 10px;
+      background: #424242;
+      border-radius: 15px 0 15px 0;
+      color: #fff;
+      min-height: 12px;
+      border: 1px solid #000;
+      }
+      </style>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+
+        <script>
+          $( function() {
+            $( "#draggable" ).draggable();
+          } );
+
+          $( function() {
+            $( "#draggable2" ).draggable();
+          } );
+          </script>
+  </head>
+  <body>
+      <div id="draggable2">
+      <div id="blanhbb" class="" >
+         
+        <h3>Informacion de las ciudades</h3>
+        <br>
+        <b>Listado de ciudades</b>
+        <br />
+        <div id="listCities"></div>
+        <hr>
+        <button onClick="initIldom();">Iniciar</button>
+        <div id="footerAuthors"></div>
+        
+    </div>
+  </div>
+
+    <div id="draggable">
+
+   <div id="error1" style=" position: absolute;top: 50%;left: 50%;   margin-top: -50px; margin-left: -50px; visibility: hidden">
+         <div id="blanhbb" class="" >
+          <h1>Ha ocurido algo..</h1>
+          'Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https'.
+          <hr>
+          
+          <button>SOLUCIONAR</button>
+        </div>
+
+    </div>
+
+        <div id="container">
+          <canvas id="c" width="2000" height="1000"></canvas>
+        </div>
+    </div>
+
+
+      <script src="ildom.js"></script>
+    
+  </body>
+</html>

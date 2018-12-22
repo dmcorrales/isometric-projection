@@ -1,0 +1,12 @@
+[
+{
+  "ciudades": [
+    {"nombre": "ciudad1", "x":20, "y": 23 , "w":357.9 , "h": 302.6, "imagen": "ciudad1.png", "desviacion": 0.3, "promedio": 0.8 },
+    {"nombre": "ciudad2", "x":8, "y": 5 , "w":426 , "h":311, "imagen": "ciudad2.png", "desviacion": 0.1, "promedio": 0.3},
+    {"nombre": "ciudad3", "x":22, "y": 8 , "w":320 , "h":320, "imagen": "ciudad3.png", "desviacion": 0.2, "promedio": 0.75},
+    {"nombre": "ciudad4", "x":6, "y":24 , "w":320 , "h":229, "imagen": "ciudad4.png", "desviacion": 0.35, "promedio": 0.42},
+    {"nombre": "ciudad5", "x":8, "y":14 , "w":320 , "h":320, "imagen": "ciudad5.png", "desviacion": 0.12, "promedio": 0.78}
+  ],
+    "authors": "Daniel Corrales & Victor Pedraza"
+}
+]
